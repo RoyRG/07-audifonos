@@ -12,6 +12,52 @@
     <link rel="stylesheet" href="/css/styles.css">
 </head>
 <body>
+    <header class="header">
+        <div class="contenedor contenido-header">
+            <div class="imagen-header">
+            <picture>
+            <source
+                 sizes="1920w"
+                 srcset="img/header.avif 1920w" 
+                 type="image/avif">
+            <source
+                 sizes="1920w" 
+                 srcset="img/header.webp 1920w" 
+                 type="image/webp">
+            <source
+                 sizes="1920w" 
+                 srcset="img/header.jpg 1920w"
+                 type="image/jpeg">
+            <img loading="lazy" decoding="async" src="img/header.png" lazyalt="imagen" width="1000" height="600">
+            </picture>
+            </div> <!--.imagen-header-->
+            <div class="texto-header">
+                <p class="tagline-producto">Sonido Profesional</p>
+                <h1 class="nombre-producto degradado-verde">TechPRO</h1>
+                <p class="descripcion-producto">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores tenetur odit culpa, doloribus aperiam odio vitae et dicta? Excepturi cum molestias magnam natus et optio consequuntur asperiores facilis quibusdam dolor.</p>
+                <p class="precio-producto">Desde <span>299</span></p>
+            </div> <!--.texto-header-->
+        </div> <!--.contenedor contenido-header-->
+    </header> <!--.header-->
+    <section class="contenedor">
+        <div class="iconos">
+        <div class="icono">
+            <img src="/img/icono-sonido.svg">
+            <h3>INCREIBLE SONIDO</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati eligendi corrupti recusandae quas consequuntur aliquam aperiam voluptatum a omnis, similique, error deleniti deserunt quod! Dolore ipsum eaque ut illum tempore!</p>
+        </div>
+        <div class="icono">
+            <img src="/img/icono-garantia.svg" alt="imagen icono">
+            <h3>GARANTÍA DE POR VIDA</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati eligendi corrupti recusandae quas consequuntur aliquam aperiam voluptatum a omnis, similique, error deleniti deserunt quod! Dolore ipsum eaque ut illum tempore!</p>
+        </div>
+        <div class="icono">
+            <img src="/img/icono-bateria.svg">
+            <h3>+20 HORAS DE BATERIA</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati eligendi corrupti recusandae quas consequuntur aliquam aperiam voluptatum a omnis, similique, error deleniti deserunt quod! Dolore ipsum eaque ut illum tempore!</p>
+        </div>
+        </div>
     
+    </section>
 </body>
 </html>
